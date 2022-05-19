@@ -1,0 +1,15 @@
+.main-banner{
+    background-color: rgb(212, 207, 207);
+    max-width: 1170px;
+}
+
+.main-banner-text{
+    margin-top: .25cm;
+    margin-left: .4cm;
+    color : black
+}
+
+.main-banner-button{
+    margin-top: .1cm;
+    margin-left: .1cm;
+}
