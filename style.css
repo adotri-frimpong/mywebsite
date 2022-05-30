@@ -10,13 +10,13 @@
 
 
 body{
-    min-height: 400vh;
+    min-height: 200vh;
     background: linear-gradient(180deg, #4fc3dc, #4f5ddc, #2c35b8);
 }
 
 .container{
     width: 100%;
-    height: 400vh;
+    height: 200vh;
     overflow: hidden;
     position: relative;
 }
@@ -188,7 +188,33 @@ body{
     opacity: .85;
 }
 
+.bi-github {
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    opacity: .85;
+}
+
+.bi-file-person {
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    opacity: .85;
+}
+
 .bi-linkedin:hover {
+    padding: 30px 30px;
+    opacity: 1;
+}
+
+.bi-github:hover {
+    padding: 30px 30px;
+    opacity: 1;
+}
+
+.bi-file-person:hover {
     padding: 30px 30px;
     opacity: 1;
 }
