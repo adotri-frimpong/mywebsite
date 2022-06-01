@@ -14,6 +14,8 @@ body{
     background: linear-gradient(180deg, #4fc3dc, #4f5ddc, #2c35b8);
 }
 
+
+/* FOND D'ÉCRAN ANIMÉ */
 .container{
     width: 100%;
     height: 200vh;
@@ -30,17 +32,17 @@ body{
     position: relative;
     width: 30px;
     height: 30px;
-    background: #cf1d1d;
+    background: #54ebd1;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
-    animation: animate 75s linear infinite;
+    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #748488, 0 0 100px #748488;
+    animation: animate 15s linear alternate-reverse infinite;
     animation-duration: calc(120s / var(--i));
 }
 
 .bulles span:nth-child(even) {
-    background: #dee040;
-    box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #dee040, 0 0 100px #dee040;
+    background: #774185;
+    box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #774185, 0 0 100px #774185;
 }
 
 @keyframes animate {
@@ -53,32 +55,23 @@ body{
     }
 }
 
-.home{
-    width:100%;
-    height:400px;
-    margin: 0 0;
-    display:flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: black;
-    font-size: 1.25em;
-    overflow: hidden;
-}
 
-.home img {
+/* BANNIÈRE PAGE PRINCIPALE */
+.container img {
+    display: flex;
+    position: relative;
     width: 100%;
     height: auto;
     border-radius: 10px;
     opacity: 0.8;
 }
 
-.home img:hover {
+.container img:hover {
     opacity: 1;
 }
 
 
+/* CARTE DE PRÉSENTATION */
 .cadre-carte {
     display:flex;   /*Animation Hover symétrique*/
     justify-content: center;
@@ -177,22 +170,97 @@ body{
     color: gray;
 }
 
-.contact {
+
+/* PIED DE PAGE */
+.pied-page {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.btn-light {
-    padding: 15px 30px;
-    justify-content: space-between;
-    border: none;
-    border-radius: 5px;
-    font-weight: 500;
-    opacity: .85;
+footer {
+    position: relative;
+    background: #3586ff;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.btn-light:hover {
-    padding: 30px 45px;
-    opacity: 1;
-    font-weight: 700;
+footer .socials, footer .menu {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .socials, footer .menu li {
+    list-style: none;
+    color: white;
+}
+
+footer .socials li a {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0 20px;
+    display: inline-block;
+    transition: .5s;
+}
+
+footer .socials li a:hover {
+    transform: translateY(-10%);
+}
+
+footer .menu li a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    display: inline-block;
+    transition: .5s;
+}
+
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("./pictures/wave.png");
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+    z-index: 1000;
+    bottom: 0;
+    animation: animate_wave1 3s  linear infinite;
+}
+
+@keyframes animate_wave1 {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
+
+footer .wave#wave2 {
+    z-index: 999;
+    bottom: 0;
+    opacity: .5;
+    animation: animate_wave2 5s  linear infinite;
+}
+
+@keyframes animate_wave2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
 }
