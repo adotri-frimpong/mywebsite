@@ -16,7 +16,7 @@ body{
 
 
 /* FOND D'ÉCRAN ANIMÉ */
-.container{
+.container-fluid{
     width: 100%;
     height: 200vh;
     overflow: hidden;
@@ -57,7 +57,7 @@ body{
 
 
 /* BANNIÈRE PAGE PRINCIPALE */
-.container img {
+.container-fluid img {
     display: flex;
     position: relative;
     width: 100%;
@@ -66,13 +66,14 @@ body{
     opacity: 0.8;
 }
 
-.container img:hover {
+.container-fluid img:hover {
     opacity: 1;
 }
 
 
 /* CARTE DE PRÉSENTATION */
 .cadre-carte {
+    position: relative;
     display:flex;   /*Animation Hover symétrique*/
     justify-content: center;
     align-items: center;
@@ -82,7 +83,7 @@ body{
 
 .carte {
     position: relative;
-    width:500px;
+    width:40%;
     height:200px;
     background: white;
     border-radius: 20px;
