@@ -16,9 +16,9 @@ body{
 
 
 /* FOND D'ÉCRAN ANIMÉ */
-.container-fluid{
+.container-fluid {
     width: 100%;
-    height: 200vh;
+    height: 350vh;
     overflow: hidden;
     position: relative;
 }
@@ -57,7 +57,7 @@ body{
 
 
 /* BANNIÈRE PAGE PRINCIPALE */
-.container-fluid img {
+.container-fluid .banniere img {
     display: flex;
     position: relative;
     width: 100%;
@@ -169,6 +169,75 @@ body{
     font-weight: 400;
     line-height: 1.2em;
     color: gray;
+}
+
+
+/* CERTIFICATIONS */
+.titre-certif {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.bloc-certifications {
+    display: flex;
+    position: relative;
+}
+
+.certif-helsinki .certif-agoria {
+    display: flex;
+    position: relative;
+}
+
+.certif-helsinki .cadre-photo {
+    align-items: center;
+    justify-content: center;
+}
+
+.certif-agoria .cadre-photo {
+    align-items: center;
+    justify-content: center;
+}
+
+.certif-helsinki .cadre-photo img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.certif-agoria .cadre-photo img {
+    
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.certif-helsinki .description, .certif-agoria .description {
+    color: white;
+    background-color: rgba(143, 130, 130, 0.4);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    opacity: .85;
+
+}
+
+.lien-certif-Helsinki {
+    text-decoration: none;
+    font-weight: 700;
+    color: cyan;
+}
+
+.lien-certif-Helsinki:hover {
+    transform: translateX(-10%);
+    text-decoration: none;
+    color: cyan;
 }
 
 
