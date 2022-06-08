@@ -18,7 +18,7 @@ body{
 /* FOND D'ÉCRAN ANIMÉ */
 .container-fluid {
     width: 100%;
-    height: 350vh;
+    min-height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -184,11 +184,13 @@ body{
 .bloc-certifications {
     display: flex;
     position: relative;
+    height: 1500px;
 }
 
 .certif-helsinki .certif-agoria {
     display: flex;
     position: relative;
+
 }
 
 .certif-helsinki .cadre-photo {
