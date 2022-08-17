@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frimpong ADOTRI Web Page</title>
+    <title>Frimpong ADOTRI Web Site</title>
     
     <link rel="shortcut icon" href="./pictures/logo.png">
 
@@ -19,6 +19,7 @@
     <!-- Bootstrap Font Icon CSS CDN Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     
+    <!-- Fichier CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome Icon CSS CDN Link -->
@@ -27,132 +28,176 @@
 </head>
 
 <body>
-    <section>
-        
-        <!-- Background animé -->
-        <div class="container-fluid">
-            <div class="bulles">
-                <span style="--i:11;"></span>
-                <span style="--i:12;"></span>
-                <span style="--i:24;"></span>
-                <span style="--i:10;"></span>
-                <span style="--i:14;"></span>
-                <span style="--i:20;"></span>
-                <span style="--i:13;"></span>
-                <span style="--i:18;"></span>
-                <span style="--i:28;"></span>
-                <span style="--i:24;"></span>
-                <span style="--i:17;"></span>
-                <span style="--i:9;"></span>
-                <span style="--i:8;"></span>
-                <span style="--i:15;"></span>
-                <span style="--i:10;"></span>
-                <span style="--i:11;"></span>
-                <span style="--i:24;"></span>
-                <span style="--i:12;"></span>
-                <span style="--i:16;"></span>
-                <span style="--i:14;"></span>
-                <span style="--i:20;"></span>
-                <span style="--i:13;"></span>
-                <span style="--i:18;"></span>
-                <span style="--i:28;"></span>
-                <span style="--i:24;"></span>
-                <span style="--i:17;"></span>
-                <span style="--i:9;"></span>
-                <span style="--i:8;"></span>
-                <span style="--i:15;"></span>
-                <span style="--i:10;"></span>
-                <span style="--i:18;"></span>
-                <span style="--i:28;"></span>
-                <span style="--i:24;"></span>
-                <span style="--i:17;"></span>
-            </div>
 
-            <!-- bannière  -->
-            <div class="banniere">
-                <img src="./pictures/banner1.png" alt="bannière-de-bienvenue">
-            </div>
-
-            <!-- Carte de présentation -->
-            <div class="cadre-carte">
-                <div class="carte">
-                    <div class="cadre-image">
-                        <img src="./pictures/me.JPG" alt="photo-de-moi">
-                    </div>
-                    <div class="contenu">
-                        <div class="presentation">
-                            <h3>Frimpong ADOTRI <br><span>Cycle ingénieur Big Data & Machine Learning</span></h3>
-                            <h4>
-                                Je suis Frimpong ADOTRI, étudiant en cycle ingénieur à <a href="https://www.efrei.fr" target="_blank" class="lead"> l'école EFREI </a>, parcours Big Data 
-                                et Intelligence artificielle. Je suis passionné par la science des données et je
-                                me forme en autodidacte sur certains fondamentaux de l'intelligence artificielle en
-                                général et du Machine Learning en particulier. N'hésitez pas à explorer le site pour
-                                en savoir plus sur moi.
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-
-    </section>
-
-    <!-- Certifications -->
-    <div class="h2 titre-certif">MES CERTIFICATIONS</div>
-    <div class="container-fluid row align-item-center bloc-certifications">
-        <div class="col certif-helsinki">
-            <div class="cadre-photo">
-                <img src="./pictures/certificate-elements-of-ai-fr.png" alt="certificate-university-of-Helsinki">
-            </div>
-            <div class="description">
-                Cette certification nommée "Elements of AI" reprend les fondamentaux de l'intelligence artificielle
-                en général et du Machine Learning en particulier. La certification est délivrée par l'Université
-                d'Helsinki et la formation est suivie 100% en ligne.
-                <br>
-                Ma certification est disponible <a href="https://certificates.mooc.fi/validate/epj7084ddx" target="_blank" class="lien-certif-Helsinki">ici</a>
-            </div>
+    <!-- Header -->
+    <header>
+        <div class="user">
+            <img src="./pictures/PROFIL.png" alt="mon_profil">
+            <h3 class="name">ADOTRI Frimpong</h3>
+            <p class="post">Apprentice Data Scientist at <span><a href="https://www.mutex.fr" target="_blank">MUTEX</a></span></p>
         </div>
-        <div class="col certif-agoria">
-            <div class="cadre-photo">
-                <img src="./pictures/Certificate_AI_in_Business_page-0001.jpg" alt="certificate-university-of-Helsinki">
-            </div>
-            <div class="description">
-                Cette certification nommée "AI for Business" est une certification orientée sur la thématique Intelligence Artificielle - Entreprises.
-                De l'utilisation des Data Lakes au Cloud Computing, en passant par l'utilisation des services Cloud
-                cette certification est une complète introduction aux applications de l'Intelligence artificielle en entreprise
-                La certification est délivrée par l'organisation Agoria (Belgique) et la formation est suivie 100% en ligne.
-                <br>
-                Ma certification est disponible <a href="./pictures/Certificate_AI_in_Business_page-0001.jpg" target="_blank" class="lien-certif-Helsinki">ici</a>
-            </div>
-        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header -->
+
+
+    <div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I AM <span>Frimpong ADOTRI</span></h1>
+    <p>I am a student ingineer in Big Data & Machine Learning at <a href="https://www.efrei.fr" target="_blank">EFREI-Paris</a>. 
+        Passionate about data science, I self-taught myself on the fundamentals of Machine Learning. I am also an apprentice 
+        Data Scientist at <a href="https://www.mutex.fr" target="_blank">MUTEX</a>, in order to improve my skills.
+    </p>
+    <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+
+</section>
+<!-- home section ends -->
+
+
+<!-- about section starts  -->
+<section class="about" id="about">
+
+<h1 class="heading"> <span>About</span> Me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> Name : </span> Frimpong ADOTRI </h3>
+        <h3> <span> Age : </span> 20 </h3>
+        <h3> <span> Formation : </span> Big Data & ML Ingineering Cycle </h3>
+        <h3> <span> Post : </span> Apprentice Data Scientist </h3>
+        <h3> <span> Language(s) : </span> French, English, Ewe </h3>
+        <h3> <span> Skills : </span> Python, R, LaTeX, Statistics, Algebra,... </h3>
+        <a href="./Documents/CV_Frimpong_ADOTRI.pdf" download="CV_Frimpong_ADOTRI"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
     </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>-1</span>
+            <h3>year(s) of experience</h3>
+        </div>
+
+        <div class="box">
+            <span>2+</span>
+            <h3>Academic project(s) completed</h3>
+        </div>
+
+        <div class="box">
+            <span>2</span>
+            <h3>Certificate(s)</h3>
+        </div>
+
+    </div>
+
 </div>
 
-    <!-- Pied de page -->
-    <div class="pied-page">
-        <footer>
-            <div class="waves">
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-            </div>
-            
-            <ul class="socials">
-                <li><a href="https://www.linkedin.com/in/frimpong-michel-ange-adotri-127aa219a" target="_blank" title="Mon Linkedin"><i class="bi bi-linkedin"></i></a></li>
-                <li><a href="https://github.com/frimpong-adotri-01?tab=repositories" target="_blank" title="Mon GitHub"><i class="bi bi-github"></i></a></li>
-                <li><a href="https://gitlab.com/frimpong-adotri" target="_blank" title="Mon GitLab"><i class="fa fa-gitlab" aria-hidden="true"></i></a></li>
-                <li><a href="./Documents/CV_Frimpong_ADOTRI.pdf" target="_blank" title="Mon CV"><i class="bi bi-file-person"></i></a></li>
-            </ul>
+</section>
 
-            <ul class="menu">
-                <li><a href="#" title="Accueil">Accueil</a></li>
-                <li>  </li>
-                <li><a href="#" title="En savoir plus">À Propos</a></li>
-                <li>  </li>
-                <li><a href="mailto:frimpong.adotri@gmail.com" title="Envoyez-moi un mail">Contact</a></li>
-            </ul>
-        </footer>
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> My <span>Education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2016 - 2019</span>
+        <h3>High School (C Bachelor's degree)</h3>
+        <p>3 years of high school during which I learned the basics of physics and mathematics 
+            at <strong>Collège Protestant Lomé-Tokoin (Togo)</strong>
+        </p>
     </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2019 - 2022</span>
+        <h3>Double degree in mathematics and computer science</h3>
+        <p>A 3-year university education combining the acquisition of skills in static modeling and computer science
+            at the <strong>University Paris Cité (ex Paris Descartes)</strong>
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022 - </span>
+        <h3>Big Data & Machine Learning engineering cycle</h3>
+        <p>Currently specializing in Big Data at <strong>EFREI-Paris</strong> and work-study at <strong>MUTEX</strong></p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>Contact</span> Me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">Contact Info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> <a href="mailto:frimpong.adotri@gmail.com" target="_blank">frimpong.adotri@gmail.com</a></h3>
+            <h3> <i class="fa-brands fa-linkedin" aria-hidden="true""></i>  <a href="https://www.linkedin.com/in/michel-ange-adotri-127aa219a/" target="_blank">Frimpong Michel-Ange ADOTRI</a></h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+    
+    <!-- CDN JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+
+    <!-- Fichier JS -->
+    <script src="./script.js"></script>
     
 </body>
 
