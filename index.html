@@ -25,6 +25,15 @@
     <!-- Font Awesome Icon CSS CDN Link -->
     <script src="https://kit.fontawesome.com/123de5dd2f.js" crossorigin="anonymous"></script>
 
+    <style>
+        body {
+            background: radial-gradient(circle, rgb(55, 54, 56), rgb(111, 110, 109));
+        }
+
+        nav {
+            background: linear-gradient(to bottom, rgb(55, 54, 56), rgb(111, 110, 109));
+        }
+    </style>
 </head>
 
 <body>
@@ -32,9 +41,9 @@
     <!-- Header -->
     <header>
         <div class="user">
-            <img src="./pictures/me.png" alt="mon_profil">
+            <img src="./pictures/me.JPG" alt="mon_profil">
             <h3 class="name">ADOTRI Frimpong</h3>
-            <p class="post">Apprentice Data Scientist at <span><a href="https://www.mutex.fr" target="_blank">MUTEX</a></span></p>
+            <p class="post" style="color: #f9ca24;">Apprentice Data Scientist at <span><a href="https://www.mutex.fr" target="_blank" style="color: #f9ca24;">MUTEX</a></span></p>
         </div>
 
         <nav class="navbar">
@@ -76,29 +85,30 @@
 
     <div class="info">
         <h3> <span> Name : </span> Frimpong ADOTRI </h3>
-        <h3> <span> Age : </span> 20 </h3>
+        <h3> <span> Age : </span> 21 </h3>
         <h3> <span> Formation : </span> Big Data & ML Ingineering Cycle </h3>
-        <h3> <span> Post : </span> Apprentice Data Scientist </h3>
+        <h3> <span> Post : </span> Data Scientist </h3>
         <h3> <span> Language(s) : </span> French, English, Ewe </h3>
-        <h3> <span> Skills : </span> Python, R, LaTeX, Statistics, Algebra,... </h3>
+        <h3> <span> Skills : </span> Python, Scala, Docker, Git, Bash, Statistics, Algebra,... </h3>
         <a href="./Documents/CV_Frimpong_ADOTRI.pdf" download="CV_Frimpong_ADOTRI"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+        <a href="https://github.com/frimpong-adotri-01" target="_blank"><button class="btn"> Visit my GitHub <i class="fa-brands fa-github"></i> </button></a>
     </div>
 
     <div class="counter">
 
         <div class="box">
-            <span>-1</span>
+            <span>1</span>
             <h3>year(s) of experience</h3>
         </div>
 
         <div class="box">
-            <span>2+</span>
+            <span>7+</span>
             <h3>Academic project(s) completed</h3>
         </div>
 
         <div class="box">
-            <span>2</span>
-            <h3>Certificate(s)</h3>
+            <span>1</span>
+            <h3>Professional project(s) completed</h3>
         </div>
 
     </div>
@@ -139,7 +149,7 @@
         <i class="fas fa-graduation-cap"></i>
         <span>2022 - </span>
         <h3>Big Data & Machine Learning engineering cycle</h3>
-        <p>Currently specializing in Big Data at <strong>EFREI-Paris</strong> and work-study at <strong>MUTEX</strong></p>
+        <p>Currently specializing in Big Data and Machine Learning at <strong>EFREI-Paris</strong> and work-study at <strong>MUTEX</strong></p>
     </div>
 
 </div>
@@ -168,11 +178,11 @@
 
     </div>
 
-    <form action="">
+    <form action="https://formsubmit.co/4aee77c809ae17e7751997552cd55dbc" method="POST">
 
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <input type="text" placeholder="name" class="box" required>
+        <input type="email" placeholder="email" class="box" required>
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message" required></textarea>
         <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
 
     </form>
